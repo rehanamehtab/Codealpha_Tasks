@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Rehana.</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <!-- Add a menu icon for mobile -->
+        <div class="menu-btn" onclick="toggleMenu()">☰</div>
+    </header>
+       <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Rehana Mehtab</h1>
+            <h3>Frontend Developer</h3>
+            <p>Web developer | Front-end Developer | HTML, CSS Flexbox, JS, PHP | Bootstrap5 | WordPress developer</p>
+            <div class="btn-box">
+                <a href="#">Hire Me</a>
+                <a href="#">Let's Talk</a>
+            </div>
+        </div>
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.linkedin.com/in/rehana-mehtab-31a003166/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/rehanamehtab"><i class='bx bxl-github'></i></a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="about-title">About Me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="rehanamehtab.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Rehana, Full Stack Website Developer</div>
+                    <p>"Hi, I'm Rehana, I am passionate about creating engaging and responsive web interfaces with proficiency in HTML, CSS, Bootstrap, JavaScript, and PHP. I have a solid grasp of Bootstrap, which I use to ensure that my designs are not only beautiful but also fully responsive across all devices. I have a deep understanding of WordPress CMS, skilled in custom theme and plugin development, and responsive website design. Moreover, my ability to work collaboratively with designers and developers allows me to deliver high-quality projects on time and within budget. With a keen eye for detail and a dedication to staying current with emerging technologies, I am always striving to enhance my skills and deliver optimal results for my clients. My goal is to build secure, scalable, and high-performing applications that meet both user needs and business requirements. I’m passionate about turning ideas into reality on the web, and I’m always eager to take on new challenges and expand my knowledge in this ever-evolving field. Let's work together to create something exceptional.</p>
+                    <!-- Updated Download CV link -->
+                    <a href="rehana cv (1).pdf">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My Services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Web Design</div>
+                        <p>Creating intuitive and visually appealing designs that enhance user experience.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa-solid fa-code"></i>
+                        <div class="text">Web Development</div>
+                        <p>Building responsive and high-performance websites.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <div class="text">Responsive Design</div>
+                        <p>Ensuring that websites look great and function across all devices.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa-solid fa-server"></i>
+                        <div class="text">Backend Development</div>
+                        <p>Developing robust backend systems that power websites and applications.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa-solid fa-database"></i>
+                        <div class="text">Database Management</div>
+                        <p>Managing and optimizing databases to ensure data integrity and performance.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa-solid fa-lock"></i>
+                        <div class="text">Web Security</div>
+                        <p>Implementing security measures to protect websites from threats and vulnerabilities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="portfolio">
+        <div class="max-width">
+            <h2 class="portfolio-title">My Portfolio</h2>
+            <div class="portfolio-container">
+                <div class="portfolio-item">
+                    <img src="images/project1.jpg" alt="Project 1">
+                    <h3>Responsive Website Design</h3>
+                    <p>A clone website project to showcase front-end skills with unique design pages.</p>
+                    <a href="https://github.com/rehanamehtab/Responsive-website-design-master" target="_blank" class="portfolio-link">View on GitHub</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/project2.png" alt="Project 2">
+                    <h3>Website Home Page</h3>
+                    <p>Created as a front-end developer for a client.</p>
+                    <a href="https://github.com/rehanamehtab/spongle" target="_blank" class="portfolio-link">View on GitHub</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/project3.jpg" alt="Project 3">
+                    <h3>Final Project in Course</h3>
+                    <p>Library management system project</p>
+                    <a href="https://github.com/rehanamehtab/lab_cs_php" target="_blank" class="portfolio-link">View on GitHub</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/slider 1.PNG" alt="Project 4">
+                    <h3>Disney Land Clone Website</h3>
+                    <p>Designed as a front-end developer</p>
+                    <a href="https://github.com/rehanamehtab/disney_land/tree/main/disney_land" target="_blank" class="portfolio-link">View on GitHub</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/pic.jpeg" alt="Project 5">
+                    <h3>Insurance Company Website Home Page</h3>
+                    <p>Front-end development task</p>
+                    <a href="https://github.com/rehanamehtab/insurance-company" target="_blank" class="portfolio-link">View on GitHub</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/project4.jpg" alt="Project 6">
+                    <h3>Website Home Page</h3>
+                    <p>Assignment task</p>
+                    <a href="https://github.com/rehanamehtab/SECUREM-ASSIGNMENT-2/tree/main/Assignment2" target="_blank" class="portfolio-link">View on GitHub</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/port5.jpg" alt="Project 7">
+                    <h3>Website Home Page</h3>
+                    <p>Project showcasing front-end development skills</p>
+                    <a href="https://github.com/rehanamehtab/Assignment-3-JOJO" target="_blank" class="portfolio-link">View on GitHub</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/header-image.png" alt="Project 8">
+                    <h3>Netflix Clone Website Home Page</h3>
+                    <p>Project showcasing front-end development skills</p>
+                    <a href="https://github.com/rehanamehtab/Netflix-website" target="_blank" class="portfolio-link">View on GitHub</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/box6_image.jpg" alt="Project 9">
+                    <h3>Amazon Clone Website</h3>
+                    <p>Home Page showcasing front-end development skills</p>
+                    <a href="https://github.com/rehanamehtab/Amazon-clone-website" target="_blank" class="portfolio-link">View on GitHub</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/banner.jpg" alt="Project 10">
+                    <h3>Website Home page with Bootstrap</h3>
+                    <p>Showcasing front-end development skills with Bootstrap</p>
+                    <a href="https://github.com/rehanamehtab/Webpage-with-bootstrap" target="_blank" class="portfolio-link">View on GitHub</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/01.png" alt="Project 11">
+                    <h3>Simple Web page created for client</h3>
+                    <p>Showcasing Front-end Development Skills</p>
+                    <a href="https://github.com/rehanamehtab/web-page" target="_blank" class="portfolio-link">View on GitHub</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/project12.jpg" alt="Project 12">
+                    <h3>Project 12 Title</h3>
+                    <p>Description for project 12.</p>
+                    <a href="https://github.com/rehanamehtab/project12" target="_blank" class="portfolio-link">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+        <!-- Contact Section Start -->
+        
+<section class="contact" id="contact">
+    <div class="max-width">
+        <h2 class="title">Contact me</h2>
+        <div class="contact-content">
+            <div class="column left">
+                <div class="text">Get in Touch</div>
+                <p>"As a passionate front-end developer, I thrive on creating engaging and intuitive web experiences. I believe that effective communication is key to understanding your needs and transforming them into beautiful, functional designs. Whether you have a project in mind, a question about my work, or simply want to connect, I’m here to help. Let’s collaborate to turn your vision into reality!"
+
+                </p>
+                <div class="icons">
+                    <div class="row">
+                        <i class="fas fa-user"></i>
+                        <div class="info">
+                            <div class="head">Name</div>
+                            <div class="sub-title">Rehana Mehtab</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info">
+                            <div class="head">Address</div>
+                            <div class="sub-title">Jauharabad, Khushab</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info">
+                            <div class="head">Email</div>
+                            <div class="sub-title">rehanamehtab61@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column right">
+                <div class="text">Message me</div>
+                <form id="contactForm" onsubmit="showConfirmation(event)">
+                    <div class="fields">
+                        <div class="field name">
+                            <input type="text" placeholder="Name" required>
+                        </div>
+                        <div class="field email">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="field textarea">
+                        <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                    </div>
+                    <div class="button-area">
+                        <button type="submit">Send message</button>
+                    </div>
+                </form>
+                <div id="confirmationMessage" class="confirmation-message" style="display:none;">
+                    Thank you for your response! Your message has been delivered.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer>
+            <span>Created By <a href="#home">Rehana Mehtab</a> | <span class="far fa-copyright"></span> 2024 All rights reserved.</span>
+        </footer>
+    
+    <!-- Link to the external JavaScript file -->
+    <script src="portfolio.js"></script>
+                
+</body>
+</html>
